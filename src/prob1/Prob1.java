@@ -10,7 +10,10 @@ public class Prob1 {
 		System.out.print( "금액:" );
 		int money = scanner.nextInt();
 		
-
+		CalculatingMachine cm = new CalculatingMachine();
+		cm.calculate(money);
+		
+		cm.show();
 		
 		scanner.close();
  	}
